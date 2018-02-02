@@ -45,7 +45,7 @@
             speed: 'Speed',
             exp: 'Experience',
             sleep: 'Regeneration',
-            msgme: 'Message me in game'
+            msgme: 'Send me a message to:'
         },
         gr_GR: {
             lang_select: 'Επιλεγμένη Γλώσσα',
@@ -60,7 +60,22 @@
             speed: 'Ταχύτητα',
             exp: 'Εμπειρία',
             sleep: 'Αναγέννηση',
-            msgme: 'Στείλτε μου μήνυμα στο Παιχνίδι'
+            msgme: 'Στείλτε μου μήνυμα στο:'
+        },
+		 de_DE: {
+            lang_select: 'Sprache ausgewählt',
+            language: 'German',
+            ApiGui: 'Dieses Skript, fügen Sie einfach die nützlichste 4-Taste auf der Seite hinzu.',
+            contact: 'Kontakt',
+            title: 'My Set Buttons',
+            update: 'Aktualisierung',
+            updateAvailable: 'Neue Version des Skripts ist verfügbar.',
+            name: 'My Set Buttons',
+            con: 'Konstruktion',
+            speed: 'Geschwindigkeit',
+            exp: 'Erfahrung',
+            sleep: 'Regeneration',
+            msgme: 'Schick mir eine Nachricht an:'
         },
         it_IT: {
             lang_select: 'Lingua selezionata',
@@ -75,7 +90,7 @@
             speed: 'Velocità',
             exp: 'Esperienza',
             sleep: 'Rigenerazione',
-            msgme: 'Mandami un messaggio in gioco'
+            msgme: 'Inviami un messaggio a:'
         },
         ru_RU: {
             lang_select: 'Выбранный язык',
@@ -90,7 +105,7 @@
             speed: 'Скорость',
             exp: 'Опыт',
             sleep: 'Регенерация',
-            msgme: 'Напиши мне в игре'
+            msgme: 'Отправьте мне сообщение:'
         },
         ro_RO: {
             lang_select: 'Limba selectionata',
@@ -105,7 +120,7 @@
             speed: 'Viteza',
             exp: 'Experiență',
             sleep: 'Regenerare',
-            msgme: 'Trimitemi mesaj in joc'
+            msgme: 'Trimite-mi un mesaj către:'
         }
     };
     var MPlang = langs.hasOwnProperty(Game.locale) ? langs[Game.locale] : langs.gr_GR;
@@ -116,7 +131,7 @@
         mySetButton.images.speed_img + '"> <img src="' +
         mySetButton.images.exp_img + '"> <img src="' +
         mySetButton.images.sleep_img + '"><br><br><br><b> ' +
-        MPlang.contact + ':</b><ul style="margin-left:15px;"><li>' + MPlang.msgme + '<a href="javascript:void(PlayerProfileWindow.open(87744));"> Belle Bernice </a>' +
+        MPlang.contact + ':</b><ul style="margin-left:15px;"><li>' + MPlang.msgme + '<a target=\'_blanck\' href="https://greasyfork.org/forum/messages/add/Timemod%20Herkumo"> Greasy Fork </a>' +
         '<img src="https://westgr.innogamescdn.com/images/chat/emoticons/smile.png?1"></li></ul>');
 
     var str = window.location.href.toString();
