@@ -22,7 +22,7 @@
         minGame: '2.03',
         maxGame: Game.version.toString(),
         website: 'https://greasyfork.org/en/scripts/38089-tw-my-set-button',
-        updateUrl: 'https://raw.githack.com/Vartanov/Tre-Pulsanti/master/agg.js',
+        updateUrl: 'https://raw.githack.com/Timemod-Herkumo/My-Set-Buttons/master/My Set Button.js',
         images: {
             constr_img: "https://i.imgur.com/cbHHeL7.png",
             speed_img: "https://i.imgur.com/K6odevz.png",
