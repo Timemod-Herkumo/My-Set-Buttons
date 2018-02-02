@@ -4,9 +4,9 @@
 // @author Timemod Herkumo
 // @description This script, just add most useful 4 button to the page!
 // @include https://*.the-west.*/game.php*
-// @version 1.0
-// @website https://liberstudio.top
-// @icon https://www.liberstudio.top/wp-content/uploads/fav.ico
+// @version 1.2
+// @website https://greasyfork.org/en/scripts/38089-tw-my-set-button
+// @icon none
 // @grant none
 // ==/UserScript==
 (function(fn) {
@@ -17,7 +17,7 @@
     document.body.removeChild(script);
 })(function() {
     var mySetButton = {
-        version: '1.0',
+        version: '1.2',
         author: 'Timemod Herkumo',
         minGame: '2.03',
         maxGame: Game.version.toString(),
@@ -45,7 +45,7 @@
             speed: 'Speed',
             exp: 'Experience',
             sleep: 'Regeneration',
-            msgme: 'Message me in game:'
+            msgme: 'Message me in game'
         },
         gr_GR: {
             lang_select: 'Επιλεγμένη Γλώσσα',
@@ -60,7 +60,7 @@
             speed: 'Ταχύτητα',
             exp: 'Εμπειρία',
             sleep: 'Αναγέννηση',
-            msgme: 'Στείλτε μου μήνυμα στο Παιχνίδι:'
+            msgme: 'Στείλτε μου μήνυμα στο Παιχνίδι'
         },
         it_IT: {
             lang_select: 'Lingua selezionata',
@@ -75,7 +75,7 @@
             speed: 'Velocità',
             exp: 'Esperienza',
             sleep: 'Rigenerazione',
-            msgme: 'Mandami un messaggio in gioco:'
+            msgme: 'Mandami un messaggio in gioco'
         },
         ru_RU: {
             lang_select: 'Выбранный язык',
@@ -90,7 +90,7 @@
             speed: 'Скорость',
             exp: 'Опыт',
             sleep: 'Регенерация',
-            msgme: 'Напиши мне в игре:'
+            msgme: 'Напиши мне в игре'
         },
         ro_RO: {
             lang_select: 'Limba selectionata',
@@ -105,7 +105,7 @@
             speed: 'Viteza',
             exp: 'Experiență',
             sleep: 'Regenerare',
-            msgme: 'Trimitemi mesaj in joc:'
+            msgme: 'Trimitemi mesaj in joc'
         }
     };
     var MPlang = langs.hasOwnProperty(Game.locale) ? langs[Game.locale] : langs.gr_GR;
