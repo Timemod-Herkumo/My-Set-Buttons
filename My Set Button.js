@@ -4,7 +4,7 @@
 // @author Timemod Herkumo
 // @description This script, just add most useful 4 button to the page!
 // @include https://*.the-west.*/game.php*
-// @version 1.2
+// @version 1.3
 // @website https://greasyfork.org/en/scripts/38089-tw-my-set-button
 // @icon none
 // @grant none
@@ -17,7 +17,7 @@
     document.body.removeChild(script);
 })(function() {
     var mySetButton = {
-        version: '1.2',
+        version: '1.3',
         author: 'Timemod Herkumo',
         minGame: '2.03',
         maxGame: Game.version.toString(),
