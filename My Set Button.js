@@ -45,7 +45,7 @@
             speed: 'Speed',
             exp: 'Experience',
             sleep: 'Regeneration',
-            msgme: 'Message me in game'
+            msgme: 'Message me in game:'
         },
         gr_GR: {
             lang_select: 'Επιλεγμένη Γλώσσα',
@@ -60,7 +60,7 @@
             speed: 'Ταχύτητα',
             exp: 'Εμπειρία',
             sleep: 'Αναγέννηση',
-            msgme: 'Στείλτε μου μήνυμα στο Παιχνίδι'
+            msgme: 'Στείλτε μου μήνυμα στο Παιχνίδι:'
         },
         it_IT: {
             lang_select: 'Lingua selezionata',
@@ -75,7 +75,7 @@
             speed: 'Velocità',
             exp: 'Esperienza',
             sleep: 'Rigenerazione',
-            msgme: 'Mandami un messaggio in gioco'
+            msgme: 'Mandami un messaggio in gioco:'
         },
         ru_RU: {
             lang_select: 'Выбранный язык',
@@ -90,7 +90,7 @@
             speed: 'Скорость',
             exp: 'Опыт',
             sleep: 'Регенерация',
-            msgme: 'Напиши мне в игре'
+            msgme: 'Напиши мне в игре:'
         },
         ro_RO: {
             lang_select: 'Limba selectionata',
@@ -105,7 +105,7 @@
             speed: 'Viteza',
             exp: 'Experiență',
             sleep: 'Regenerare',
-            msgme: 'Trimitemi mesaj in joc'
+            msgme: 'Trimitemi mesaj in joc:'
         }
     };
     var MPlang = langs.hasOwnProperty(Game.locale) ? langs[Game.locale] : langs.gr_GR;
