@@ -7,7 +7,7 @@
 // @author Timemod Herkumo
 // @include https://*.the-west.*/game.php*
 // @version 1.1.10
-// @website https://greasyfork.org/en/scripts/38089-tw-my-set-button
+// @website https://greasyfork.org/en/scripts/38234-tw-my-set-buttons
 // @icon https://i.imgur.com/6ie8aM4.jpg
 // @grant none
 // ==/UserScript==
@@ -23,7 +23,7 @@
         author: 'Timemod Herkumo',
         minGame: '2.03',
         maxGame: Game.version.toString(),
-        website: "https://greasyfork.org/en/scripts/38089-tw-my-set-button",
+        website: "https://greasyfork.org/en/scripts/38234-tw-my-set-buttons",
         updateUrl: "https://raw.githack.com/Timemod-Herkumo/My-Set-Buttons/master/My Set Buttons.js",
         images: {
             constr_img: "https://i.imgur.com/Da5ZwC3.png",
