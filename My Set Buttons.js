@@ -23,8 +23,8 @@
         author: 'Timemod Herkumo',
         minGame: '2.03',
         maxGame: Game.version.toString(),
-        website: 'https://greasyfork.org/en/scripts/38089-tw-my-set-button',
-        updateUrl: 'https://raw.githack.com/Timemod-Herkumo/My-Set-Buttons/master/My Set Button.js',
+        website: "https://greasyfork.org/en/scripts/38089-tw-my-set-button",
+        updateUrl: "https://raw.githack.com/Timemod-Herkumo/My-Set-Buttons/master/My Set Buttons.js",
         images: {
             constr_img: "https://i.imgur.com/Da5ZwC3.png",
             speed_img: "https://i.imgur.com/K6odevz.png",
