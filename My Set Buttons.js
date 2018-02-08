@@ -6,7 +6,7 @@
 // @namespace TW_Timemod
 // @author Timemod Herkumo
 // @include https://*.the-west.*/game.php*
-// @version 1.1.12
+// @version 1.1.13
 // @website https://greasyfork.org/en/scripts/38234-tw-my-set-buttons
 // @icon https://i.imgur.com/6ie8aM4.jpg
 // @grant none
@@ -19,12 +19,12 @@
     document.body.removeChild(script);
 })(function() {
     var mySetButton = {
-        version: '1.1.12',
+        version: '1.1.13',
         author: 'Timemod Herkumo',
         minGame: '2.03',
         maxGame: Game.version.toString(),
         website: 'https://greasyfork.org/en/scripts/38234-tw-my-set-buttons',
-        updateUrl: 'https://raw.githack.com/Timemod-Herkumo/My-Set-Buttons/master/My Set Buttons.js',
+        updateUrl: 'https://raw.githubusercontent.com/Timemod-Herkumo/My-Set-Buttons/master/My%20Set%20Buttons.js',
         images: {
             constr_img: "https://i.imgur.com/Da5ZwC3.png",
             speed_img: "https://i.imgur.com/K6odevz.png",
